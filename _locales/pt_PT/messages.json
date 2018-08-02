@@ -1,0 +1,38 @@
+﻿{
+   "desc": {
+      "message": "An easy access to Telegram, minimalistic. Also notifies you of all new messages"
+   },
+   "name": {
+      "message": "Telegram notifications in popup"
+   },
+   "shortname": {
+      "message": "Telegram notifications popup"
+   },
+   "title": {
+      "message": "Telegram notifications"
+   },
+   "popupSizeTitle": {
+      "message": "Popup size"
+   },
+   "popupBadgeColor": {
+      "message": "Notification color"
+   },
+   "popupMinWidth": {
+      "message": "Minimum popup width is 570px"
+   },
+   "popupMinHeight": {
+      "message": "Minimum popup height is 400px"
+   },
+   "popupWidth": {
+      "message": "Popup width is "
+   },
+   "popupHeight": {
+      "message": "Popup height is "
+   },
+   "popupDefColor": {
+      "message": "Default notification background color is green"
+   },
+   "popupPickColor": {
+      "message": "Pick a color for notification background"
+   }
+}

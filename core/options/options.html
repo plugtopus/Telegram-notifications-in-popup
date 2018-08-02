@@ -1,0 +1,36 @@
+<!DOCTYPE html PUBLIC "-//IETF//DTD HTML 2.0//EN">
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Telegram in Popup</title>
+    <link rel="icon" type="image/png" href="../../img/16.png"/>
+    <link rel="stylesheet" type="text/css" href="options.css"/>
+    <link rel="stylesheet" type="text/css" href="colorpicker/mcColorPicker.css"/>
+  </head>
+  <body class="flex">
+    <div id="content" class="flex">
+      <table class="main">
+        <tr>
+          <td style="font-size: medium" id="popupSizeTitle">Popup size</td>
+          <td>
+            <span id="popupWidth">Popup width is </span><input data-pref="popup.width" type="number" min="570"><span>px</span>
+            <p class="note" id="popupMinWidth">Minimum popup width is 570px</p>
+            <p class="spacer"></p>
+            <span id="popupHeight">Popup height is </span><input data-pref="popup.height" type="number" min="400"><span>px</span>
+            <p class="note" id="popupMinHeight">Minimum popup height is 400px</p>
+          </td>
+        </tr>
+        <tr>
+          <td style="font-size: medium" id="popupBadgeColor">Notification color</td>
+          <td>
+            <span id="popupPickColor">Pick a color for notification background</span>
+            <input data-pref="badge.color" class="color" readonly='true'>
+            <p class="note" id="popupDefColor">Default notification background color is green</p>
+          </td>
+        </tr>
+      </table>
+    </div>
+    <script type='text/javascript' src="colorpicker/mcColorPicker.js"></script>
+    <script type='text/javascript' src="options.js"></script>
+  </body>
+</html>

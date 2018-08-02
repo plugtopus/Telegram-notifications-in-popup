@@ -1,0 +1,38 @@
+﻿{
+   "desc": {
+      "message": "Простой и быстрый доступ к Telegram, минимализм. Уведомления о новых сообщениях на иконке"
+   },
+   "name": {
+      "message": "Telegram уведомления в окошке"
+   },
+   "shortname": {
+      "message": "Telegram уведомления в окошке"
+   },
+   "title": {
+      "message": "Telegram уведомления"
+   },
+   "popupSizeTitle": {
+      "message": "Размер окошка"
+   },
+   "popupBadgeColor": {
+      "message": "Цвет уведомления"
+   },
+   "popupMinWidth": {
+      "message": "Минимальная ширина окошка - 570px"
+   },
+   "popupMinHeight": {
+      "message": "Минимальная высота окошка - 400px"
+   },
+   "popupWidth": {
+      "message": "Ширина окошка "
+   },
+   "popupHeight": {
+      "message": "Высота окошка "
+   },
+   "popupDefColor": {
+      "message": "Цвет уведомления по умолчанию - зеленый"
+   },
+   "popupPickColor": {
+      "message": "Выберите цвет уведомления"
+   }
+}

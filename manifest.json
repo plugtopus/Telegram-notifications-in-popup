@@ -1,0 +1,39 @@
+{
+   "background": {
+      "page": "core/lib/chrome/background.html"
+   },
+   "browser_action": {
+      "default_icon": {
+         "128": "img/128.png"
+      },
+      "default_popup": "core/content/panel.html",
+      "default_title": "__MSG_title__"
+   },
+   "content_scripts": [ {
+      "all_frames": true,
+      "css": [ "core/content/inject.css" ],
+      "js": [ "core/content/inject.js" ],
+      "matches": [ "*://*.web.telegram.org/*" ],
+      "run_at": "document_start"
+   } ],
+   "default_locale": "en_US",
+   "description": "__MSG_desc__",
+   "homepage_url": "https://sites.google.com/view/promo-extensions-welcome",
+   "icons": {
+      "128": "img/128.png",
+      "16": "img/16.png",
+      "32": "img/32.png",
+      "48": "img/48.png",
+      "64": "img/64.png"
+   },
+   "manifest_version": 2,
+   "name": "__MSG_name__",
+   "options_ui": {
+      "chrome_style": true,
+      "page": "core/options/options.html"
+   },
+   "permissions": [ "storage", "webRequest", "webRequestBlocking", "*://*.web.telegram.org/*"],
+   "short_name": "__MSG_shortname__",
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "2018.08.02.2"
+}
